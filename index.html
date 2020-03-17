@@ -25,39 +25,46 @@
     </header>
 
     <!-- page content wrapper -->
-    <div>
+    <div class='content'>
         <!-- video-related section -->
-        <section>
+        <section class="primary">
             <!--youtube video -->
             <figure>
                 <!-- iframe video -->
-                <iframe src="https://www.youtube.com/embed/v8IHMhrTzMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class='frame-wrapper'>
+                    <iframe src="https://www.youtube.com/embed/v8IHMhrTzMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <figcaption>
-                    Разговор с архитектором. Матрица: Перезагрузка.
+                    <h1>Разговор с архитектором. Матрица: Перезагрузка.</h1>
                 </figcaption>
             </figure>
 
             <!-- video-related content -->
-            <div>
+            <div class='social'>
                 18 110 просмотров•18 апр. 2019 г.
 
-                <i class="material-icons">thumb_up</i>
-                <span>219</span>
-                <i class="material-icons">thumb_down</i>
-                <span>5</span>
-                <i class="material-icons">more_horiz</i>
-                <span>ПОДЕЛИТЬСЯ</span>
-                <i class="material-icons">reply</i>
-                <span>СОХРАНИТЬ</span>
-                <i class="material-icons">playlist_add</i>
+                <div class='likes'>
+                    <i class="material-icons">thumb_up</i>
+                    <span>219</span>
+                    <i class="material-icons">thumb_down</i>
+                    <span>5</span>
+                    <i class="material-icons">reply</i>
+                    <span>ПОДЕЛИТЬСЯ</span>
+                    <i class="material-icons">playlist_add</i>
+                    <span>СОХРАНИТЬ</span>
+                    
+                    <i class="material-icons">more_horiz</i>
+                    </div>
             </div>
 
             <!-- channel related content -->
-            <div>
+            <div class='channel'>
                 <!-- top row channel ava -->
-                <div>
+                <div class='chan-top-box'>
                     <div>
-                        <img src="pin/channel.jpg" alt="Видео Фокс">
+                        <img src="pin/channel.jpg" alt="Видео Фокс">                  
+                    </div>
+                    <div class='chan-name-box'>
                         <strong>Видео Фокс</strong>
                         <p>113 тыс. подписчиков</p>
                     </div>
@@ -67,7 +74,7 @@
                     </div>
                 </div>
                 <!-- boottom row - video discription -->
-                <div>
+                <div class='chan-bot-box'>
                     <p>Поставь лайк, подпишись, оставь комментарий и поделись в соцсетях.</p>
                     <p>Разговор с архитектором.</p>
                     <p>Отрывок из фильма "Матрица: Перезагрузка" (The Matrix Reloaded, 2003).</p>
@@ -76,26 +83,274 @@
             </div>
 
             <!-- comment section -->
-            <div>
+            <div class="comment-box">
                 <!-- avatar -->
                 <div>
-                    <img src="pin/ava.jpg" alt="logo" height="24px">
+                    <img src="pin/1c.jpg" alt="logo" height="24px">
                 </div>
                 <!-- comment-related info -->
                 <div>
                     <!-- nic-name -->
-                    <div><b>Dubass Fight</b> 6 месяцев назад</div>
-
+                    <div><b>Ya - Emir</b><span> 6 месяцев назад</span> </div>
+                    
                     <!-- comments -->
-                    <div>значит ли это, что реальный мир- тоже матрица ?</div>
+                    <div class="comment-text">Всё хорошо в этом диалоге, кроме долбанного перевода-адаптации!!! 
+                        Нео говорит на языке оригинала следующее: "Choice, the problem is choice", долбаный перевод говорит так: "Выбор, у всех людей есть выбор!!!"
+                        Вы долбаные переводчики, адаптаторы, этой фразой вы убили весь смысл диалога, ведь, проблема</div>
 
                     <!-- likes -->
                     <div>
+            
                         <i class="material-icons">thumb_up</i>
                         <span>13</span>
-                        <i class="material-icons">thumb_down</i>
+                        <i class="material-icons left-p-15">thumb_down</i>
                         <span>2</span>
-                        <span>ОТВЕТИТЬ</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/2c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Dubass Fight</b><span> 6 месяцев назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">значит ли это, что реальный мир- тоже матрица ?</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/3c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Луч Света</b><span> 5 месяцев назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">вот он и раскрыл все карты зеон это тоже матрица.</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/4c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Квентин Дорвард</b><span> 1 месяц назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Следующий фильм будет называться Интеграл третьего порядка</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/5c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Ильшат Гавзалиев</b><span> 5 месяцев назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Вот почему пифия была нужна...</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/6c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Dasha Berry</b><span> 14 часов назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Нео ,показывающий средний палец -шедевр)</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/6c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Патрик Кормак</b><span> 1 месяц назад (изменено)</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Нео: вижу вы не видите 🤣🤣 слепое око. 🤷‍♂️</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/7c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>////</b><span> 1 месяц назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Нэо - бабораб</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/8c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Черный Перец</b><span> 9 месяцев назад</span> </div>
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">Игры разума!...главное следовать за кроликом:)</div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <!-- avatar -->
+                <div>
+                    <img src="pin/9c.jpg" alt="logo" height="24px">
+                </div>
+                <!-- comment-related info -->
+                <div>
+                    <!-- nic-name -->
+                    <div><b>Евгений Тач</b><span> 5 месяцев назад</span> </div>
+                    
+                    
+
+                    <!-- comments -->
+                    <div class="comment-text">В ПЕРВОЙ ЧАСТИ НЕО ТЫКАЕТ ПАЛЬЦЕМ В ЖИДКОЕ ЗЕРКАЛО И ГОВОРИТ "ЭТОГО НЕ МОЖЕТ БЫТЬ", А МОРФЕУС ГОВОРИТ "ГДЕ? В РЕАЛЬНОМ МИРЕ?". ТАК ВОТ В ТРЕТЬЕЙ ЧАСТИ НЕО ПОТЕРЯВ ЗРЕНИЕ В МИРЕ ЗЕОНА , КАК ТО МОЖЕТ ВИДЕТЬ, И УБИВАТЬ МАШИНЫ ВЗМАХОМ РУКИ, ТАК ВОТ ЭТОГО НЕ МОЖЕТ БЫТЬ В РЕАЛЬНОМ МИРЕ , СЛЕДОВАТЕЛЬНО ЗЕОН ТОЖЕ МАТРИЦА, ИЗ НЕЁ НИКТО НЕ ВЫШЕЛ И НИКТО НЕ УМЕР, ОНИ ВСЕ ТАК И СПЯТ В СВОИХ КАПСУЛАХ, ИХ ПРОСТО ПЕРЕЗАГРУЗИЛИ ЗАНОВО В </div>
+
+                    <!-- likes -->
+                    <div>
+            
+                        <i class="material-icons">thumb_up</i>
+                        <span>13</span>
+                        <i class="material-icons left-p-15">thumb_down</i>
+                        <span>2</span>
+                        <span class="left-p-12">ОТВЕТИТЬ</span>
+                    
                     </div>
                 </div>
             </div>
@@ -103,16 +358,259 @@
         </section>
 
         <!-- recommended video section -->
-        <section>
+        <section class="related">
 
             <!-- recommended video 1-->
 
             <figure>
+                <img src="https://i.ytimg.com/vi/hd5G9e8qMB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDtX_eZGiPYxnNhSvXAOxxkhac3Og" alt="budda">
+                <figcaption>
+                    <div><strong>Нео выбирает любовь. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                        10 тыс. просмотров</p>
+                    
+                </figcaption>
+            </figure>
+
+            <!-- recommended video 2-->
+
+            <figure>
                 <img src="https://i.ytimg.com/vi/GgpQSptPExg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBOKFRrOrTZk9ZDZI3qq0AaPH89jQ" alt="budda">
                 <figcaption>
-                    <div><strong>Overcome Overthinking & Excessive Worrying ✧ 852Hz Автор</strong></div>
-                    <div>Meditative Mind</div>
-                    <div>Recommended for you</div>
+                    <div><strong>Overcome Overthinking & Excessive Worrying ✧ 852Hz</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/fm20ttfF2o0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAuH2jDFwkhgI2ZVli1WobT5O1gkg'>
+                <figcaption>
+                    <div><strong>Activate your Higher Mind | 432 Hz + 963 Hz | Raise...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/IOLp4fjGbiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC8stoAi3k8nfa_1p_XErCo3sMy9Q'>
+                <figcaption>
+                    <div><strong>THIRD EYE CHAKRA Sleep Meditation | Awaken Crystal...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/94Yz4NrZZ08/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLArU8x20nETic3mbdlXexJ9dKdCrQ'>
+                <figcaption>
+                    <div><strong>396 HZ 》DESTROY FEAR 》Clear Negative Energy 》Let Go ...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/WI3F9RKSAQY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD9fjrIuXCZbH-QK1uW1P-qD9IWKw'>
+                <figcaption>
+                    <div><strong>963Hz 》YOU ARE THE UNIVERSE 》Manifest...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/H03_1ONn-cA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAs7f4J69F2OZv61jVX0ftSAKobQw'>
+                <figcaption>
+                    <div><strong>O852Hz + 639Hz ⁂ Diving into Deep Space ⁂ Activate...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/OO53rGVqPB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAcvgAF7n7QGUMSIOQrPo0aYfvPRw'>
+                <figcaption>
+                    <div><strong>Драка с близнецами на парковке. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/ftdjm6vsSjs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDDz2XM1-DaCbUwtghccT9B_oqlwA'>
+                <figcaption>
+                    <div><strong>250 тысяч машин против Зиона. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://i.ytimg.com/vi/hd5G9e8qMB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDtX_eZGiPYxnNhSvXAOxxkhac3Og" alt="budda">
+                <figcaption>
+                    <div><strong>Нео выбирает любовь. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                        10 тыс. просмотров</p>
+                    
+                </figcaption>
+            </figure>
+
+            <!-- recommended video 2-->
+
+            <figure>
+                <img src="https://i.ytimg.com/vi/GgpQSptPExg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBOKFRrOrTZk9ZDZI3qq0AaPH89jQ" alt="budda">
+                <figcaption>
+                    <div><strong>Overcome Overthinking & Excessive Worrying ✧ 852Hz</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/fm20ttfF2o0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAuH2jDFwkhgI2ZVli1WobT5O1gkg'>
+                <figcaption>
+                    <div><strong>Activate your Higher Mind | 432 Hz + 963 Hz | Raise...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/IOLp4fjGbiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC8stoAi3k8nfa_1p_XErCo3sMy9Q'>
+                <figcaption>
+                    <div><strong>THIRD EYE CHAKRA Sleep Meditation | Awaken Crystal...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/94Yz4NrZZ08/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLArU8x20nETic3mbdlXexJ9dKdCrQ'>
+                <figcaption>
+                    <div><strong>396 HZ 》DESTROY FEAR 》Clear Negative Energy 》Let Go ...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/WI3F9RKSAQY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD9fjrIuXCZbH-QK1uW1P-qD9IWKw'>
+                <figcaption>
+                    <div><strong>963Hz 》YOU ARE THE UNIVERSE 》Manifest...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/H03_1ONn-cA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAs7f4J69F2OZv61jVX0ftSAKobQw'>
+                <figcaption>
+                    <div><strong>O852Hz + 639Hz ⁂ Diving into Deep Space ⁂ Activate...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/OO53rGVqPB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAcvgAF7n7QGUMSIOQrPo0aYfvPRw'>
+                <figcaption>
+                    <div><strong>Драка с близнецами на парковке. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/ftdjm6vsSjs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDDz2XM1-DaCbUwtghccT9B_oqlwA'>
+                <figcaption>
+                    <div><strong>250 тысяч машин против Зиона. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://i.ytimg.com/vi/hd5G9e8qMB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDtX_eZGiPYxnNhSvXAOxxkhac3Og" alt="budda">
+                <figcaption>
+                    <div><strong>Нео выбирает любовь. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                        10 тыс. просмотров</p>
+                    
+                </figcaption>
+            </figure>
+
+            <!-- recommended video 2-->
+
+            <figure>
+                <img src="https://i.ytimg.com/vi/GgpQSptPExg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBOKFRrOrTZk9ZDZI3qq0AaPH89jQ" alt="budda">
+                <figcaption>
+                    <div><strong>Overcome Overthinking & Excessive Worrying ✧ 852Hz</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/fm20ttfF2o0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAuH2jDFwkhgI2ZVli1WobT5O1gkg'>
+                <figcaption>
+                    <div><strong>Activate your Higher Mind | 432 Hz + 963 Hz | Raise...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/IOLp4fjGbiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC8stoAi3k8nfa_1p_XErCo3sMy9Q'>
+                <figcaption>
+                    <div><strong>THIRD EYE CHAKRA Sleep Meditation | Awaken Crystal...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/94Yz4NrZZ08/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLArU8x20nETic3mbdlXexJ9dKdCrQ'>
+                <figcaption>
+                    <div><strong>396 HZ 》DESTROY FEAR 》Clear Negative Energy 》Let Go ...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/WI3F9RKSAQY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD9fjrIuXCZbH-QK1uW1P-qD9IWKw'>
+                <figcaption>
+                    <div><strong>963Hz 》YOU ARE THE UNIVERSE 》Manifest...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/H03_1ONn-cA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAs7f4J69F2OZv61jVX0ftSAKobQw'>
+                <figcaption>
+                    <div><strong>O852Hz + 639Hz ⁂ Diving into Deep Space ⁂ Activate...</strong></div>
+                    <p>Meditative Mind<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/OO53rGVqPB0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAcvgAF7n7QGUMSIOQrPo0aYfvPRw'>
+                <figcaption>
+                    <div><strong>Драка с близнецами на парковке. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src='https://i.ytimg.com/vi/ftdjm6vsSjs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDDz2XM1-DaCbUwtghccT9B_oqlwA'>
+                <figcaption>
+                    <div><strong>250 тысяч машин против Зиона. Матрица: Перезагрузка.</strong></div>
+                    <p>Видео Фокс<br>
+                    Recommended for you</p>
                 </figcaption>
             </figure>
 
